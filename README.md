@@ -1,8 +1,7 @@
-# Brunch app
+# Mastermind client
 
-This is HTML5 application, built with [Brunch](http://brunch.io).
-* JSX templates processed using the react-brunch plugin 
-* RequireJS modules instact (turn off using brunch-config.coffee)
+Replaces the DOM fiddling by jQuery from the mastermind app with React rendering.
+This is a HTML5 application, built with [Brunch](http://brunch.io).
 
 ## Getting started
 * Install (if you don't have them):
