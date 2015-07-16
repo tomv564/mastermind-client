@@ -1,0 +1,171 @@
+/* page */
+
+.container {
+	width: 220px;
+}
+
+
+/* board */
+
+ul.guesses {
+	margin-bottom: 0px;
+}
+
+ul.code {
+	clear: both;
+	overflow: auto;
+}
+
+/* pegs */
+
+ul.code li {
+	float: left;
+	border: 2px solid #999;
+	margin-left: 5px;
+	width: 30px;
+	font-weight: bold;
+	text-align: center;
+	height: 28px;
+	border-radius: 20px;
+	margin-bottom: 0px;
+
+}
+
+#turns ul.code.selectable li {
+	cursor: pointer;
+	border: 2px solid #999;
+}
+
+#turns ul.code li.selected {
+	border: 2px solid #666;
+}
+
+ul#answer li {
+	font-size: 16px;
+	color: #fff;
+	background-color: #999;
+}
+
+ul#guesses {
+	clear: both;
+	margin-bottom: 0px;
+}
+
+/* scores */
+
+ul.score {
+	overflow: auto;
+	vertical-align: top;	
+	display: inline-block;
+	font-size: 6px;
+	width: 40px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+ul.score li {
+	margin: 1px;
+	border: 2px solid #999;
+	border-radius: 10px;
+	width: 12px;
+	display: inline-block;
+	
+}
+
+ul.score li.black {
+	background-color: #999;
+}
+
+ul.score li.white {
+	background-color: #fff;
+}
+
+ul.score li.blank {
+	background-color: #ddd;
+	/*display: none;*/
+}
+
+ul.code {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.white {
+	background-color: #fff !important;
+} 
+
+.yellow {
+	background-color: #ffff66 !important;
+}
+
+.red {
+	background-color: #ff6666 !important;
+}
+.blue {
+	background-color: #66ccff !important;
+}
+.green {
+	background-color: #408000  !important; 
+}
+
+.black {
+	background-color: #000  !important;
+}
+
+.empty {
+	background-color: #ddd;
+}
+
+/* add guess */
+
+ul.code.selectable {
+	display: inline-block;
+	margin-bottom: 0px;
+	width: 150px;
+	
+}
+
+
+#addguessbutton {
+	display: inline;
+	margin-left: 8px;
+	margin-top: 8px;
+	vertical-align: top;
+}
+
+
+#codepicker {
+	margin-top: 5px;
+	margin-left: -5px;
+	width: 200px;
+
+}
+
+/* remaining turns */
+
+#turns ul.code li {
+	border: 2px solid #ddd;
+	background-color: #ddd;
+}
+
+/* restart game, etc. */
+
+#gamecommands {
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* content */
+
+#won {
+	display: none;
+}
+
+#lost {
+	display: none;
+}
+
+#instructions {
+	visibility: hidden;
+}
+
